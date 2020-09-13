@@ -1,27 +1,33 @@
-.container {
-  position: relative;
-  left: 30px;
-  top: 100px;
-}
-
-#title-block h2 {
-  font-family: 'Playfair Display', serif;
-}
-#title-block h4 {
-  font-family: 'Quicksand', sans-serif;
-  position: relative;
-  left: 5%;
-  font-weight: 500;
-}
-#intro {
-  font-family: 'Raleway', sans-serif;
-  position: relative;
-  left: 12%;
-}
-#mySelfie {
-  width: 25%;
-  margin-left: 100px;
-  margin-top: 10px;
-  float: left;
-  border-radius: 8px;
+.home-container {
+  width: 90%;
+  margin-top: 3.5%;
+  margin-left: 2.5%;
+  .portrait {
+    width: 25%;
+    margin-left: 100px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 8px;
+  }
+  .home-text-container {
+    position: relative;
+    left: 30px;
+    top: 100px;
+    .title-block {
+      h2 {
+        font-family: 'Playfair Display', serif;
+      }
+      h4 {
+        font-family: 'Quicksand', sans-serif;
+        position: relative;
+        left: 5%;
+        font-weight: 500;
+      }
+    }
+    .intro {
+      font-family: 'Raleway', sans-serif;
+      position: relative;
+      left: 12%;
+    }
+  }
 }
