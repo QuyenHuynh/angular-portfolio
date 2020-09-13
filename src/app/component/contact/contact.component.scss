@@ -1,0 +1,29 @@
+.contact-container {
+  width: 70%;
+  padding-bottom: 5%;
+  margin: 0 auto;
+}
+.contact-container h2 {
+  font-family: 'Playfair Display', serif;
+}
+.contact-container label {
+  background-color: white;
+}
+#textforms {
+  margin-top: -20px;
+}
+
+button {
+  z-index: 1;
+}
+#submit-text {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+i.fa-paper-plane {
+  color: black;
+}
+
+textarea {
+  height: 100px;
+}

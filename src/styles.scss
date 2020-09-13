@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+a {
+  color: black;
+  &:hover {
+    opacity: 0.5;
+  }
+  &:active {
+    font-style: bold;
+  }
+}
+
+ul {
+  // list-style-type: none;
+  // margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  li {
+    padding-left: 30px;
+  }
+}
+
+/* ~~ MOBILE VIEW ~~ */
+.sidenav li {
+  padding: 0px;
+}
+
+#sidenav-btn {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  display: none;
+  z-index: 3;
+}
+
+@media screen and (max-width: 640px) {
+  #sidenav-btn {
+      display: inline;
+  }
+  .nav {
+      display: none;
+  }
+}
+@media screen and (min-width: 462x) and (max-width: 768px) {}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {}

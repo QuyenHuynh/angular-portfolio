@@ -1,0 +1,19 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.87);
+  /* display: inline; */
+  padding: 10px;
+  font-family: 'Quicksand', sans-serif;
+  z-index: 2;
+}
+#social {
+  position: relative;
+  left: 8%;
+}
+#copyright {
+  position: relative;
+  left: 42%;
+}
