@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+
 a {
   color: black;
   &:hover {
@@ -10,13 +11,19 @@ a {
 }
 
 ul {
-  // list-style-type: none;
-  // margin: 0;
-  padding: 0;
   font-family: 'Playfair Display', serif;
+  padding-left: 35px !important;
   li {
-    padding-left: 30px;
+    list-style-type: circle !important;
+    font-size: 13px;
   }
+}
+
+hr {
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  background: #333;
+  height: 1px;
+  border: 0;
 }
 
 /* ~~ MOBILE VIEW ~~ */
@@ -31,14 +38,14 @@ ul {
   z-index: 3;
 }
 
-@media screen and (max-width: 640px) {
-  #sidenav-btn {
-      display: inline;
-  }
-  .nav {
-      display: none;
-  }
-}
-@media screen and (min-width: 462x) and (max-width: 768px) {}
+// @media screen and (max-width: 640px) {
+//   #sidenav-btn {
+//       display: inline;
+//   }
+//   .nav {
+//       display: none;
+//   }
+// }
+// @media screen and (min-width: 462x) and (max-width: 768px) {}
 
-@media screen and (min-width: 769px) and (max-width: 980px) {}
+// @media screen and (min-width: 769px) and (max-width: 980px) {}

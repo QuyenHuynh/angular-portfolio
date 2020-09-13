@@ -1,14 +1,21 @@
 .resume-container {
-  width: 70%;
+  width: 80%;
   padding-bottom: 5%;
+  padding-top: 2.5%;
   margin: 0 auto;
-  .resume-header {
-    margin-top: 5%;
-    margin-bottom: 10px;
-    font-family: 'Playfair Display', serif;
-  }
-  .resume-link {
-    font-family: 'Quicksand', sans-serif;
+  .resume-header-container {
+    margin-bottom: 45px;
+    .resume-header {
+      margin-bottom: 10px;
+      font-family: 'Playfair Display', serif;
+    }
+    .resume-download {
+      font-family: 'Quicksand', sans-serif;
+      padding-left: 2px;
+      .fa-file-download {
+        padding-right: 5px;
+      }
+    }
   }
   .resume-sections {
     font-family: 'Playfair Display', serif;
@@ -16,11 +23,15 @@
   p {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
-  }
-  hr {
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    &.resume-entry {
+      display: flex;
+      justify-content: space-between;
+      font-size: 15px;
+      margin-bottom: -10px;
+    }
+    &.company-name {
+      font-size: 13px;
+      margin-bottom: -10px;
+    }
   }
 }

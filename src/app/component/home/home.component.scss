@@ -1,33 +1,27 @@
 .home-container {
   width: 90%;
-  margin-top: 3.5%;
-  margin-left: 2.5%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
   .portrait {
-    width: 25%;
-    margin-left: 100px;
-    margin-top: 10px;
-    float: left;
+    width: 275px;
     border-radius: 8px;
   }
   .home-text-container {
     position: relative;
     left: 30px;
-    top: 100px;
     .title-block {
       h2 {
         font-family: 'Playfair Display', serif;
       }
       h4 {
         font-family: 'Quicksand', sans-serif;
-        position: relative;
-        left: 5%;
-        font-weight: 500;
       }
     }
     .intro {
       font-family: 'Raleway', sans-serif;
-      position: relative;
-      left: 12%;
     }
   }
 }
