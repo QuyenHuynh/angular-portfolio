@@ -1,29 +1,25 @@
 .contact-container {
-  width: 70%;
-  padding-bottom: 5%;
+  width: 80%;
+  padding-top: 2%;
+  padding-bottom: 4.5%;
   margin: 0 auto;
-}
-.contact-container h2 {
-  font-family: 'Playfair Display', serif;
-}
-.contact-container label {
-  background-color: white;
-}
-#textforms {
-  margin-top: -20px;
-}
-
-button {
-  z-index: 1;
-}
-#submit-text {
-  color: black;
-  font-family: 'Raleway', sans-serif;
-}
-i.fa-paper-plane {
-  color: black;
-}
-
-textarea {
-  height: 100px;
+  .contact-header {
+    font-family: 'Playfair Display', serif;
+  }
+  textarea {
+    height: 125px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  button {
+    z-index: 1;
+    span.submit-text {
+      color: black;
+      font-family: 'Raleway', sans-serif;
+    }
+    i.fa-paper-plane {
+      color: black;
+    }
+  }
 }
