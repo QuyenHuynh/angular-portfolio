@@ -1,9 +1,3 @@
-// router-outlet ~ * {
-//   position: absolute;
-//   height: 100%;
-//   width: 100%;
-// }
-
 a {
   color: black;
   &:hover {
@@ -37,27 +31,3 @@ hr {
   height: 1px;
   border: 0;
 }
-
-/* ~~ MOBILE VIEW ~~ */
-.sidenav li {
-  padding: 0px;
-}
-
-#sidenav-btn {
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
-  display: none;
-  z-index: 3;
-}
-
-// @media screen and (max-width: 640px) {
-//   #sidenav-btn {
-//       display: inline;
-//   }
-//   .nav {
-//       display: none;
-//   }
-// }
-// @media screen and (min-width: 462x) and (max-width: 768px) {}
-
-// @media screen and (min-width: 769px) and (max-width: 980px) {}

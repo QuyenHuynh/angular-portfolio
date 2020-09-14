@@ -1,116 +1,57 @@
 .portfolio-container {
-  width: 58%;
+  width: 80%;
   margin: 0 auto;
-  z-index: 3;
-  margin-top: -160px;
-}
-.portfolio-container h2 {
-  font-family: 'Playfair Display', serif;
-  transform: rotate(270deg);
-  transform-origin: left top 0;
-  position: relative;
-  font-size: 90px;
-  top: 530px;
-  right: 230px;
-}
-
-.gallery {
-  margin-right: 20px;
-  margin-bottom: 25px;
-  position: relative;
+  padding-top: 2%;
+  padding-bottom: 4.5%;
+  .project-header {
+    font-family: 'Playfair Display', serif;
+    }
+  img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
 }
 
-* {box-sizing:border-box}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-max-width: 1000px;
-position: relative;
-margin: auto;
+.row {
+  margin: 8px -16px;
 }
 
-/* Hide the images by default */
-.mySlides {
-display: none;
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-cursor: crosshair;
-position: relative;
-top: 50%;
-width: auto;
-margin-top: -22px;
-padding: 16px;
-color: rgb(177, 190, 219);
-font-weight: bold;
-font-size: 18px;
-transition: 0.6s ease;
-border-radius: 3px;
-user-select: none;
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
 }
 
-/* Position the "next button" to the right */
-.next {
-  left: 100%;
-  bottom: 200px;
-}
-.prev {
-  right: 12%;
-  bottom: 200px;
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-/* On hover, add a transparent black background*/
-.prev:hover, .next:hover {
-background-color: rgba(0,0,0,0.8);
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
 }
 
-/* Caption text */
-.caption {
-color: black;
-font-size: 24px;
-padding: 8px 12px;
-position: relative;
-bottom: 0px;
-width: 100%;
-text-align: center;
-font-family: 'Playfair Display', serif;
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
 }
 
-/* circular indicators */
-.dot {
-cursor: pointer;
-height: 12px;
-width: 12px;
-margin: 0 2px;
-background-color: #bbb;
-border-radius: 50%;
-display: inline-block;
-transition: background-color 0.6s ease;
-position: relative;
-bottom: 40px;
-}
-
-.active, .dot:hover {
-background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
--webkit-animation-name: fade;
--webkit-animation-duration: 1.5s;
-animation-name: fade;
-animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-from {opacity: .4} 
-to {opacity: 1}
-}
-
-@keyframes fade {
-from {opacity: .4} 
-to {opacity: 1}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
