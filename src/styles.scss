@@ -16,12 +16,23 @@ input {
   }
 }
 
+
 ul {
   font-family: 'Playfair Display', serif;
   padding-left: 35px !important;
+  line-height: 2;
   li {
     list-style-type: circle !important;
     font-size: 13px;
+    color: #565656;
+    &.nav-item {
+      list-style-type: none !important;
+      margin-top: 20px;
+    }
+    span.skill-category {
+      font-weight: bold;
+      font-family: "Raleway", sans-serif;
+    }
   }
 }
 
