@@ -12,5 +12,6 @@ Portfolio using Angular frontend framework and Materialize
 
 ### Deploying Angular Projects to GitHub (Method 2)
 1. Go to angular.json and change the outputPath to "docs"
-1. ng build --output-path docs --base-href angular-portfolio-v10
+2. ng build --output-path docs --base-href angular-portfolio-v10
+
 
